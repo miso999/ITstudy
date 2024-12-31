@@ -1,0 +1,43 @@
+.login {
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 7px;
+  font-weight: 800px;
+  padding: 15px 200px 15px 200px;
+}
+.kakaologin {
+  color: black;
+  background-color: #fee600;
+  border: 1px solid #fee600;
+  border-radius: 7px;
+  font-weight: 700;
+  padding: 15px 200px 15px 200px;
+}
+.apt20 {
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+  border: 1px solid black;
+  padding: 4px 12px 4px 12px;
+}
+
+.apt30 {
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+  border-width: 1px;
+  border: 1px solid #e6e6e6;
+  border-color: darkgray;
+  padding: 4px 12px 4px 12px;
+}
+
+.apt40 {
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+  border-width: 1px;
+  border: 1px solid darkgrey;
+  border-color: darkgrey;
+  padding: 4px 12px 4px 12px;
+}
