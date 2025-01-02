@@ -1,0 +1,31 @@
+.blue {
+  color: white;
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+  color: white;
+}
+
+.pill {
+  border: none;
+  border-radius: 4px;
+}
+
+.rounded {
+  border: none;
+  border-radius: 30px;
+}
+
+.p1 {
+  padding: 10px;
+}
+
+.p2 {
+  padding: 15px;
+}
+
+.p3 {
+  padding: 12px 100px;
+}
