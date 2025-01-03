@@ -1,0 +1,71 @@
+.sns {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+}
+
+.sns > img {
+  border-radius: 9999px;
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+.join > img {
+  border-radius: 9999px;
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.stock > img {
+  border-radius: 9999px;
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.pickup > img {
+  border-radius: 9999px;
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.sns > name {
+  padding: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.join > name2 {
+  padding: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.join > name3 {
+  padding: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.pickup > name4 {
+  padding: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+}

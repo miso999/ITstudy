@@ -1,0 +1,35 @@
+.card {
+  width: 300px;
+  height: 400px;
+  border-radius: 20px;
+  padding: 100px 15px 30px 15px;
+  display: inline-block;
+  margin-right: 20px;
+  background-image: url("image6.jpg");
+}
+
+.card > div {
+  padding: 10px;
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  color: white;
+  text-underline-offset: 5px;
+}
+
+.cheer {
+  font-weight: bolder;
+  font-size: 35px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  color: black;
+}
+
+.more {
+  padding: 5px;
+  font-weight: 100;
+  font-size: 15px;
+  color: grey;
+  text-underline-offset: 5px;
+}
