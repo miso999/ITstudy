@@ -1,0 +1,21 @@
+.album {
+  width: 100px;
+  position: relative;
+}
+
+.album > img {
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.icon {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  background-color: #ff35002c;
+  border-radius: 9999px;
+
+  padding: 15px;
+  width: fit-content;
+}

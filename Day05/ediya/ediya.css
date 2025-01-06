@@ -1,0 +1,53 @@
+.menubox {
+  display: flex;
+  flex-direction: row;
+}
+
+.shape {
+  background-color: gray;
+  width: 300px;
+  height: 450px;
+}
+
+.photo {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.4s;
+}
+
+.photo:hover {
+  transform: scale(1.2);
+}
+
+.photo > img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.square {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text {
+  text-align: center;
+  color: black;
+  font-size: 16px;
+  font-weight: 900;
+  /* margin: auto; */
+}
+
+.present {
+  color: white;
+  background-color: blue;
+  font-weight: 700;
+  border: none;
+  padding: 4px;
+  /* margin: auto; */
+}

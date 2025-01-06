@@ -1,0 +1,23 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  transition: all 3s;
+}
+
+.box:hover {
+  background-color: yellow;
+  border-radius: 9999px;
+  transform: rotate(30deg);
+}
+
+.bigbox {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+
+.bigbox:hover {
+  background-color: skyblue;
+  transform: rotate(45deg) scale(2);
+}
