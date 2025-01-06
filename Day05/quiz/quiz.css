@@ -1,0 +1,15 @@
+.icon {
+  color: white;
+  background-color: grey;
+  border-radius: 6px;
+  width: 150px;
+  height: 150px;
+  text-align: inherit;
+  font-size: 20px;
+}
+
+.pro {
+  color: grey;
+  background-color: yellow;
+  border-radius: 10px;
+}

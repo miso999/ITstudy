@@ -1,0 +1,38 @@
+.layout {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.blue {
+  background-color: #acd8fc;
+  width: 200px;
+  height: 200px;
+  border-radius: 9999px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.blue > i {
+  font-size: 45px;
+}
+
+.menubox {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.menubox > img {
+  width: 300px;
+  height: 300px;
+}
+
+.square {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

@@ -1,0 +1,93 @@
+.callendar {
+  color: black;
+  background-color: #acd8fc;
+  padding: 40px;
+  margin: 20px;
+  border-radius: 9999px;
+  text-align: center;
+  display: inline-block;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 10px;
+}
+
+.list {
+  border-radius: 9999px;
+  color: black;
+  background-color: #d5efff;
+  padding: 30px;
+  margin: 20px;
+  text-align: center;
+  display: inline-block;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.notice {
+  border-radius: 9999px;
+  color: black;
+  background-color: #d5efff;
+  padding: 30px;
+  margin: 20px;
+  text-align: center;
+  display: inline-block;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 10px;
+  font-weight: 700;
+}
+.advice {
+  border-radius: 9999px;
+  color: black;
+  background-color: #d5efff;
+  padding: 30px;
+  margin: 20px;
+  text-align: center;
+  display: inline-block;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.street {
+  border-radius: 9999px;
+  color: black;
+  background-color: #d5efff;
+  padding: 30px;
+  margin: 20px;
+  text-align: center;
+  display: inline-block;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.square {
+  color: black;
+  background-color: #d1afec;
+  border-radius: 7px;
+  border: 1px solid #d1afec;
+  padding: 70px;
+  margin: 20px;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.back {
+  display: inline-block;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.dev {
+  display: inline-block;
+  flex-direction: column;
+  gap: 10px;
+}
