@@ -1,0 +1,37 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: center;
+  background-color: aliceblue;
+  border: 1px solid blue;
+  border-radius: 6px;
+  width: 200px;
+  height: 200px;
+}
+
+.box > img {
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+  margin: 50px;
+}
+
+.name {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+}
+
+.explanation {
+  font-size: 15px;
+  font-weight: 800;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 60px;
+}
