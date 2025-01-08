@@ -1,0 +1,10 @@
+.box {
+  width: 100vw;
+  height: 200px;
+  background-color: pink;
+}
+
+.minibox {
+  width: 100%;
+  max-width: 800px;
+}
