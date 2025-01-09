@@ -1,0 +1,60 @@
+header {
+  height: 80px;
+  border-bottom: 1px solid grey;
+}
+
+nav {
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+strong {
+  font-size: 60px;
+}
+
+nav > ul {
+  gap: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li:hover {
+  font-weight: 800;
+}
+
+.jumbotron {
+  height: 300px;
+  background-image: url(image7.webp);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+  padding-top: 30%;
+}
+
+.jumbotron > .contents {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.jumbotron > .contents > h1 {
+  font-size: 100px;
+  margin-bottom: 10px;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  /* background: linear-gradient(to right, red, green); */
+  background: radial-gradient(circle at center, blue, red);
+}

@@ -1,0 +1,48 @@
+.box {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  animation: abcd 3s;
+}
+
+@keyframes abcd {
+  0% {
+    background-color: white;
+  }
+  100% {
+    background-color: pink;
+  }
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.container {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+
+  .box {
+    width: 500px;
+    height: 100px;
+    background-color: pink +;
+  }
+}

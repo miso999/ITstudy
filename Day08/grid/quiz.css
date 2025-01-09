@@ -1,0 +1,13 @@
+section {
+  /* 자식들을 엑셀, 바둑판, 격자형으로 만듦 */
+  display: grid;
+  grid-template-columns: 100px 200px 100px 200px;
+}
+
+.box {
+  width: 100%;
+  height: 100px;
+  background-color: grey;
+  padding: 20px;
+  border: 1px solid black;
+}
