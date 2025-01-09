@@ -1,0 +1,46 @@
+section {
+  /* 자식들을 엑셀, 바둑판, 격자형으로 만듦 */
+  display: grid;
+  /* grid-template-columns: 100px 200px 100px 50px; */
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+}
+
+.box {
+  width: 100%;
+  height: 100px;
+  background-color: pink;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.parents {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: 500px;
+}
+
+.one {
+  grid-area: 1 / 1 / 3 / 4;
+}
+.two {
+  grid-area: 1 / 4 / 2 / 5;
+}
+.three {
+  grid-area: 2 / 4 / 3 / 5;
+}
+.four {
+  grid-area: 3 / 1 / 5 / 5;
+}
+.five {
+  grid-area: 3 / 4 / 5 / 5;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+}
