@@ -53,7 +53,8 @@ li:hover {
 }
 
 .jumbotron > .contents > p:hover {
-  font-weight: 700;
+  transform: translate(100px, 0px);
+  font-weight: 800;
 }
 
 .language {
@@ -103,4 +104,151 @@ li:hover {
   font-size: 15px;
   margin-bottom: 40px;
   text-align: start;
+}
+
+.weare {
+  padding: 200px 0;
+  margin-bottom: 2px;
+}
+
+.weare > .contents {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.weare > .contents > .naiyou {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+}
+
+.weare > .contents > h3 {
+  font-size: 50px;
+}
+
+.home {
+  font-weight: 500;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  text-align: center;
+}
+
+.we {
+  font-weight: 500;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  text-align: center;
+}
+
+.work {
+  font-weight: 500;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  text-align: center;
+}
+
+.blog {
+  font-weight: 500;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  text-align: center;
+}
+
+.home > p {
+  font-size: 15px;
+}
+
+.we > p {
+  font-size: 15px;
+}
+
+.work > p {
+  font-size: 15px;
+}
+
+.blog > p {
+  font-size: 15px;
+}
+
+.blogus {
+  padding: 200px 0;
+  margin-bottom: 2px;
+}
+
+.blogus > .contents {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.blogus > .contents > h3 {
+  font-size: 50px;
+}
+
+.blogus > .contents > .photo1 {
+  width: 500px;
+  height: 500px;
+}
+
+.blogus > .contents > .photo1 > img {
+  width: 100%;
+  height: 100%;
+
+  align-items: center;
+  justify-content: center;
+  object-fit: contain;
+}
+
+footer {
+  background-color: skyblue;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+footer > article {
+  max-width: 1080px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  gap: 20px;
+  padding: 50px;
+}
+
+footer > article > .icon {
+  display: flex;
+  gap: 10px;
+}
+
+footer > article > .btn_box {
+  display: flex;
+  gap: 30px;
+  color: black;
+  font-weight: 500;
+}
+
+footer > article > .info {
+  display: flex;
+  justify-content: space-between;
+  color: #646f7c;
+  font-size: 14px;
+  line-height: 20px;
 }

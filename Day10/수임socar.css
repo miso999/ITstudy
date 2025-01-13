@@ -1,0 +1,245 @@
+/* 헤더 */
+
+header {
+  position: relative;
+  z-index: 999;
+}
+header > nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 40px;
+
+  color: white;
+  font-size: 30px;
+  font-weight: 1000;
+
+  z-index: 999;
+}
+header > nav > img {
+  width: 112px;
+}
+
+/* 점보트론 */
+
+@keyframes scale-up-bottom {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+  }
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.jumbotron {
+  background: url("https://www.socar.kr/images/main_visual_fullscreen.jpg");
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+
+  top: 0;
+  z-index: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jumbotron > h3 {
+  font-size: 65px;
+  font-weight: 1000;
+  text-align: center;
+  color: white;
+  line-height: 90px;
+  animation: scale-up-bottom 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+/* 라스트메세지 */
+@keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.lastMessage {
+  background-color: #f7f8f9;
+  position: absolute;
+  top: 488vh;
+  width: 100%;
+}
+.lastMessage > article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 110px;
+}
+.lastMessage > article > h3 {
+  font-size: 39px;
+  font-weight: 500;
+  color: #aaaaaa;
+  line-height: 58px;
+  text-align: center;
+}
+.lastMessage > article > h3 > strong {
+  color: var(--main-rogo-color);
+  font-weight: 700;
+  animation: rotate-center 0.6s ease-in-out 0s both;
+}
+.lastMessage > article > h3 > em {
+  color: var(--main-rogo-color);
+}
+.blue_box {
+  background-color: var(--main-rogo-color);
+  width: 80px;
+  /* height: 100%; */
+  /* display: flex;
+    justify-self: end;
+    align-items: end; */
+  position: absolute;
+  top: 488vh;
+}
+
+/* root */
+
+:root {
+  --main-rogo-color: #0fb8ff;
+}
+
+/* 다운로드btn  */
+.downloadBtn {
+  background-color: var(--main-rogo-color);
+
+  position: fixed;
+  bottom: 0;
+  right: 0;
+
+  display: flex;
+  align-items: center;
+  gap: 40px;
+
+  padding: 15px 25px;
+}
+.downloadBtn > img {
+  width: 60px;
+  border-radius: 10px;
+}
+.downloadBtn > a {
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+
+/* 컨텐트 css */
+
+@keyframes scale-up-hor-right {
+  0% {
+    -webkit-transform: scaleX(0.4);
+    transform: scaleX(0.4);
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+  }
+}
+.content {
+  position: relative;
+  top: 95vh;
+}
+.content > article {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 90px 0 70px;
+}
+.content > article > h4 {
+  font-size: 41px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  animation: scale-up-hor-right 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) 0.5s
+    both;
+}
+.content > article > h4 > strong {
+  font-weight: 700;
+}
+.content > article > p {
+  font-size: 19px;
+  font-weight: 400;
+  color: rgb(144, 144, 144);
+  margin-bottom: 50px;
+
+  line-height: 30px;
+  animation: scale-up-hor-right 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) 0.5s
+    both;
+}
+.content > article > img {
+  width: 100%;
+  animation: scale-up-hor-right 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) 0.5s
+    both;
+}
+
+/* footer */
+footer {
+  background-color: #28323c;
+  position: absolute;
+  top: 533vh;
+  width: 100%;
+
+  padding-bottom: 50px;
+}
+footer > article {
+  max-width: 1080px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  gap: 20px;
+  padding: 50px;
+}
+footer > article > .icon {
+  display: flex;
+  gap: 10px;
+}
+footer > article > .btn_box {
+  display: flex;
+  gap: 30px;
+  color: #c5c7cd;
+  font-weight: 500;
+}
+footer > article > .btn_box > .bold {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+footer > article > .info {
+  display: flex;
+  justify-content: space-between;
+  color: #646f7c;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+footer > article > .info > .info__text > a {
+  color: #c6c8ce;
+  text-decoration: underline;
+}
