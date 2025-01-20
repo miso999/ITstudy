@@ -27,3 +27,23 @@ if (3 < id.length && id.length < 17) {
 } else {
   alert(`아이디 길이가 유효하지 않습니다!`);
 }
+
+// 강사님 코드
+const userId = prompt("아이디를 만들어주세요");
+if (userId.length < 4 || 16 < userId.length)
+  alert("아이디 길이가 유효하지 않습니다!");
+else if (
+  !(
+    userId.includes("!") ||
+    userId.includes("@") ||
+    userId.includes("#") ||
+    userId.includes("&")
+  )
+)
+  alert("반드시 특수문자를 한 가지 포함하여야 합니다!");
+else if (
+  userId.slice(userId.length - 1, userId.length) !=
+  userId.slice(userId.length - 1, userId.length).toUpperCase()
+)
+  alert("마지막 알파벳은 무조건 대문자여야 합니다!");
+else alert("아이디 완성!");
