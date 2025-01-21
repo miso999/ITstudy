@@ -138,19 +138,19 @@ const calculator = {
     this.aaahistorys();
   },
   divide: function (x) {
-    this.result = this.result / x;
-    this.aaahistorys();
+    if (x == 0) console.log("에러");
+    else this.result / x;
   },
   square: function (x) {
     this.result = this.result * this.result;
     this.aaahistorys();
   },
   clear: function (x) {
-    this.result = 0;
+    this.result = this.result = 0;
     this.result = clear.history();
   },
   aaahistory: function () {
-    this.historys.push(this.result);
+    this.result = this.historys.push(this.result);
   },
 };
 
