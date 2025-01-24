@@ -60,4 +60,11 @@ const coffee = (x) => {x.ingredients.some((x) => x == "커피콩") ? x.price * 0
 	return x;
 
 };
-const newArr5 = starbucks.
+const newArr5 = starbucks.map(coffee)
+
+// 성분에 꿀이 없으면 꿀 추가하고, 이름을 맨뒤에 꿀❤ 바뀌고 가격 +300시킴 콘솔로 나타내기
+const menu2  = (honey) => {
+	honey.ingredients.push("꿀");
+	return honey;
+};
+= menu2 + "꿀❤"
